@@ -1,7 +1,7 @@
 # Matrice_Box
 ## FORK FROM : https://github.com/gauravmm/HT1632-for-Arduino
 
-Play with an Arduino, a HT1632C Matrix and some plywood :
+##### Play with an Arduino, a HT1632C Matrix and some plywood :
 
 ![My image](https://github.com/Anderson69s/Matrice_Box/blob/master/rendu.gif)
 
