@@ -51,7 +51,7 @@ void loop () {
 
   ////////TWITTER
   HT1632.clear();// On enlève l'affichage précédent.
-  HT1632.drawImage(IMG_TWITTER, IMG_TWITTER_WIDTH,  IMG_TWITTER_HEIGHT, i, 0);//On dessine notre bateau
+  HT1632.drawImage(IMG_TWITTER, IMG_TWITTER_WIDTH,  IMG_TWITTER_HEIGHT, i, 4);//On dessine notre bateau
   if (i > OUT_SIZE - IMG_TWITTER_WIDTH) {// Si l'image rencontre le bord de la matrice
     HT1632.drawImage(IMG_TWITTER, IMG_TWITTER_WIDTH,  IMG_TWITTER_HEIGHT, i - OUT_SIZE, 0);//On dessine notre bateau dans l'autre sens.
   }
@@ -60,7 +60,7 @@ void loop () {
 
   /////////////////SMILE
   HT1632.clear();// On enlève l'affichage précédent.
-  HT1632.drawImage(IMG_SMILE, IMG_SMILE_WIDTH,  IMG_SMILE_HEIGHT, i, 0);//On dessine notre bateau
+  HT1632.drawImage(IMG_SMILE, IMG_SMILE_WIDTH,  IMG_SMILE_HEIGHT, i, 4);//On dessine notre bateau
   if (i > OUT_SIZE - IMG_SMILE_WIDTH) {// Si l'image rencontre le bord de la matrice
     HT1632.drawImage(IMG_SMILE, IMG_SMILE_WIDTH,  IMG_SMILE_HEIGHT, i - OUT_SIZE, 0);//On dessine notre bateau dans l'autre sens.
   }
@@ -69,7 +69,7 @@ void loop () {
 
   /////////////////BAD
   HT1632.clear();// On enlève l'affichage précédent.
-  HT1632.drawImage(IMG_BAD, IMG_BAD_WIDTH,  IMG_BAD_HEIGHT, i, 0);//On dessine notre bateau
+  HT1632.drawImage(IMG_BAD, IMG_BAD_WIDTH,  IMG_BAD_HEIGHT, i, 4);//On dessine notre bateau
   if (i > OUT_SIZE - IMG_BAD_WIDTH) {// Si l'image rencontre le bord de la matrice
     HT1632.drawImage(IMG_BAD, IMG_BAD_WIDTH,  IMG_BAD_HEIGHT, i - OUT_SIZE, 0);//On dessine notre bateau dans l'autre sens.
   }
@@ -78,7 +78,7 @@ void loop () {
 
   /////////////////NOPE
   HT1632.clear();// On enlève l'affichage précédent.
-  HT1632.drawImage(IMG_NOPE, IMG_NOPE_WIDTH,  IMG_NOPE_HEIGHT, i, 0);//On dessine notre bateau
+  HT1632.drawImage(IMG_NOPE, IMG_NOPE_WIDTH,  IMG_NOPE_HEIGHT, i, 4);//On dessine notre bateau
   if (i > OUT_SIZE - IMG_NOPE_WIDTH) {// Si l'image rencontre le bord de la matrice
     HT1632.drawImage(IMG_NOPE, IMG_NOPE_WIDTH,  IMG_NOPE_HEIGHT, i - OUT_SIZE, 0);//On dessine notre bateau dans l'autre sens.
   }
